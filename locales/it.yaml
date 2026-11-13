@@ -1,0 +1,1637 @@
+# Traduzione italiana di InvisiProxy LTS (locales/it.yaml), basata su en.yaml.
+# Chiavi, {segnaposto} e <tag> sono identici all'inglese: si traduce solo il
+# testo tra i tag.
+#
+# Convenzioni, per chi rivede o continua la traduzione:
+#   - Si dà del tu, come nella maggior parte dei siti e delle app in italiano.
+#   - Termini allineati a Chrome e Firefox in italiano: tab = scheda,
+#     bookmark = preferiti, address bar = barra degli indirizzi,
+#     history = cronologia, settings = Impostazioni.
+#   - bypass = aggirare, unblock = sbloccare, routing = instradamento,
+#     fingerprint = impronta del browser. Restano in inglese self-hosting,
+#     deploy, branch, proxy, mirror, user agent e i nomi di prodotti e opzioni.
+#   - Date nel formato italiano (GG/MM/AAAA).
+
+language:
+  name: Italiano
+
+  # Codici paese (ISO 3166-1) inviati da Cloudflare nell'header CF-IPCountry.
+  # CH è esclusa di proposito: in Svizzera l'italiano è lingua di minoranza.
+  countries:
+    - IT
+    - SM
+    - VA
+
+  # Termini mascherati per non essere bloccati dai filtri. Restano i nomi
+  # propri e i termini inglesi che compaiono anche nel testo italiano; dopo
+  # ciascuno seguono le traduzioni italiane, con le forme flesse usate qui.
+  maskedTerms:
+    - InvisiProxy
+    - InvisiProxy LTS
+    - Holy Unblocker
+    - Holy Unblocker LTS
+    - Webretro
+    - Ruffle
+    - Tab Cloaker
+    - Tab Cloakers
+    - Search
+    - Searching
+    - Cerca
+    - Cercare
+    - Cercando
+    - Ricerca
+    - Ricerche
+    - Freely
+    - Free
+    - Liberamente
+    - Libertà
+    - Libero
+    - Libera
+    - Gratis
+    - Gratuito
+    - Gratuita
+    - Gratuiti
+    - Gratuite
+    - Gratuitamente
+    - Surfing
+    - Surf
+    - Navigare
+    - Navigazione
+    - VPN
+    - VPNs
+    - Server
+    - Servers
+    - Network
+    - Networks
+    - Rete
+    - Reti
+    - Connection
+    - Connections
+    - Connessione
+    - Connessioni
+    - Privacy
+    - Riservatezza
+    - Private
+    - Privato
+    - Privata
+    - Privati
+    - Games
+    - Giochi
+    - Gioco
+    - Croxy
+    - CroxyProxy
+    - Proxium
+    - SOCKS
+    - SOCKS5
+    - Proxychain
+    - Proxychaining
+    - Censorship
+    - Censura
+    - Firewall
+    - Firewalls
+    - Anonymous
+    - Anonimo
+    - Anonima
+    - Anonimi
+    - Anonimamente
+    - Anonymity
+    - Anonimato
+    - Block
+    - Blocca
+    - Bloccare
+    - Bloccato
+    - Bloccati
+    - Bloccata
+    - Bloccate
+    - Bloccarlo
+    - Blocco
+    - Blocchi
+    - Filter
+    - Filtro
+    - Filtri
+    - Filtrare
+    - Filtraggio
+    - Restrict
+    - Restrizione
+    - Restrizioni
+    - Restrittive
+    - Restrittivi
+    - Censor
+    - Censurare
+    - Censurato
+    - Evade
+    - Aggira
+    - Aggirare
+    - Aggirando
+    - Eludere
+    - Evasion
+    - Elusione
+    - Evasione
+    - Stealth
+    - Cloak
+    - Camuffa
+    - Camuffare
+    - Camuffamento
+    - Camuffando
+    - Incognito
+    - Disguise
+    - Mascherare
+    - Mascheramento
+    - Mascherato
+    - Mascherata
+    - Mascherati
+    - Chromebook
+    - School
+    - Scuola
+    - Scuole
+    - Scolastico
+    - Scolastica
+    - Scolastici
+    - Scolastiche
+    - Libcurl
+    - Epoxy
+    - Bare-Mux
+    - Mercury Workshop
+    - WebRTC
+    - Mirror
+    - Proxy
+    - Proxies
+    - Proxied
+    - Proxying
+    - Unblock
+    - Unblocked
+    - Unblocking
+    - Unblocks
+    - Unblocker
+    - Unblockers
+    - Sblocca
+    - Sbloccare
+    - Sbloccato
+    - Sbloccati
+    - Sbloccata
+    - Sbloccate
+    - Sblocco
+    - Sbloccando
+    - Bypass
+    - Titanium Network
+    - Wisp
+    - Tor
+    - Onion
+    - Ultraviolet
+    - Scramjet
+    - Rammerhead
+
+home:
+  title: >-
+    InvisiProxy LTS | Proxy web gratuito - Aggira i filtri e accedi ai siti
+    bloccati
+  description: >-
+    InvisiProxy LTS è un servizio di proxy web all'avanguardia, pensato per
+    aggirare filtri e blocchi del web. Che la censura avvenga sul dispositivo o
+    a livello di rete, InvisiProxy LTS ti dà accesso senza intoppi ai siti
+    bloccati e ti permette di navigare in modo sicuro e privato su dispositivi
+    come i Chromebook. Supera blocchi dei contenuti, estensioni di Chrome,
+    firewall e molto altro con la nostra soluzione proxy avanzata.
+  ogDescription: >-
+    InvisiProxy LTS è un servizio di proxy web di prim'ordine che aggira le
+    restrizioni di rete e del browser per accedere in sicurezza ai siti
+    bloccati. Goditi una navigazione fluida, con una sicurezza solida e
+    funzionalità avanzate.
+  twitterDescription: >-
+    Scopri InvisiProxy LTS, un servizio di proxy web di alto livello che aggira
+    censura e filtri per darti accesso sicuro ai siti bloccati. Ideale per
+    navigare in privato e superare le restrizioni di rete su dispositivi come i
+    Chromebook.
+
+  headline: Stop alla censura su internet.
+  tagline: La privacy a portata di mano.
+  browseNow: Naviga ora
+  bypassNow: Sblocca ora
+  donate: Dona
+  logoAlt: Logo principale di InvisiProxy
+
+  terminal:
+    setup: Per la prima configurazione su un branch di produzione...
+    start: Oppure, per l'uso di tutti i giorni...
+    dev: Per lo sviluppo...
+
+  free:
+    title: InvisiProxy è gratuito.
+    body: >-
+      Essendo open source, puoi fare facilmente un fork di questo repository e
+      ospitarlo tu stesso per avere il massimo controllo sulla privacy. Rispetto
+      a molti altri servizi di proxy web, InvisiProxy si distingue per la
+      crittografia end-to-end tramite TLS, l'isolamento della cronologia del
+      browser, l'instradamento Tor/Onion nei browser Chromium, la totale
+      trasparenza e il controllo sulla privacy. <strong>A differenza di altri
+      servizi proxy, sulle nostre istanze ufficiali non raccogliamo alcun dato
+      degli utenti. Nemmeno per il debug.</strong><br/>Le nostre dipendenze open
+      source (Wisp, Libcurl ed Epoxy) sono progettate per essere sicure e
+      rispettose della privacy, così la tua navigazione resta riservata anche su
+      istanze self-hosted gestite da malintenzionati.
+
+  fast:
+    title: InvisiProxy è veloce e molto avanzato.
+    body: >-
+      InvisiProxy offre prestazioni eccezionali come proxy web. Vanta un ricco
+      insieme di funzionalità: supporto a reCAPTCHA/Botguard, rete Tor,
+      proxychaining SOCKS5, blacklist personalizzabile, protezione dalle fughe
+      di dati, cronologia nascosta e un'ampia compatibilità con i siti grazie a
+      Scramjet + Wisp (abbinati al trasporto Libcurl). Altri servizi popolari
+      come CroxyProxy o Proxium spesso fanno solo metà del lavoro nella
+      riscrittura delle risorse, lasciando trapelare richieste, e in più sono un
+      rischio per la privacy. Questo progetto supporta anche il proxychaining,
+      che ti permette di instradare il traffico attraverso più proxy per una
+      sicurezza e un anonimato maggiori.
+
+  practical:
+    title: InvisiProxy è pratico.
+    body: >-
+      Grazie alla randomizzazione del codice sorgente e a progetti come Proxy
+      Transports, Wisp e Scramjet, questo progetto offre un'esperienza fluida
+      che aggira i filtri del web, dei governi e delle reti. Funziona contro i
+      filtri usati in Cina (GFW - il Great Firewall cinese), in Russia e
+      altrove, <strong>senza bisogno di scaricare alcun software</strong>. Tutto
+      avviene interamente nel browser, come un normale sito web, tramite il
+      nostro backend (o il tuo, se lo ospiti tu stesso), così puoi aggirare
+      anche i blocchi di censura più invasivi. Non serve scaricare nulla: digita
+      il dominio di InvisiProxy, vai sul sito ufficiale di InvisiProxy per
+      ottenere dei mirror se è bloccato e naviga in modo anonimo.
+
+  heroSubtitle: Gratuito e trasparente da usare
+  designedWithPrivacy: Progettato per la privacy<underline/>.
+
+  overview:
+    title: Panoramica
+    body: >-
+      InvisiProxy LTS, un servizio di proxy web sperimentale, può aggirare i
+      filtri web o "blocchi", che la censura avvenga sul dispositivo o a livello
+      di rete. Questo include la possibilità di aggirare i blocchi dei contenuti
+      imposti dai governi di altri paesi (Cina/GFW, Russia, ecc.), le estensioni
+      di Chrome, i firewall locali dei dispositivi e i filtri di rete.
+    donate: >-
+      Valuta una donazione a questo progetto, così possiamo mantenerlo gratuito!
+      Offriamo più domini al mese, accesso alle beta, domini personali e
+      priorità sulle richieste di funzionalità.<br/>Puoi fare una donazione
+      <patreon>qui su Patreon</patreon>.
+    patreonLabel: Dona su Patreon
+    imageAlt: Icona di un server
+
+  intent:
+    title: Scopo
+    body: >-
+      Questo progetto nasce soprattutto come proof of concept della soluzione
+      ideale per aggirare la censura senza installare nulla. Essendo un servizio
+      di proxy web sicuro, supporta numerosi siti, viene aggiornato spesso e
+      cura nel dettaglio design, meccaniche e funzionalità.
+    palette: >-
+      La palette di questo progetto si basa su <nord>Nord Theme</nord>, scelto
+      per la sua combinazione di colori ottimale e per l'attenzione alla
+      leggibilità della sintassi del codice e dei componenti dell'interfaccia.
+    imageAlt: Icona di un file di codice
+
+  usage:
+    title: Come si usa
+    body: >-
+      Vai alla pagina <browse>Naviga</browse> e scegli uno dei proxy
+      disponibili! Poi digita nella casella di ricerca il sito che vuoi
+      visitare. Ogni proxy web ha un proprio livello di efficacia, velocità e
+      sicurezza. Ti consigliamo di usare Scramjet.<br/><br/>Esempio di sito da
+      sbloccare: <code>https://youtube.com</code>
+    imageAlt: Icona di uno scudo
+
+  apps:
+    title: App
+    body: >-
+      InvisiProxy include una raccolta di applicazioni già collegate, tra cui
+      YouTube, Spotify, GeForce NOW, Discord, ChatGPT, Gemini e molte altre!
+    imageAlt: Icona di un'applicazione
+
+  hosting:
+    title: Hosting e deploy
+    body: >-
+      <strong>InvisiProxy LTS</strong> è una soluzione open source progettata
+      all'insegna della modularità, della facilità d'uso e di un deploy
+      semplice. Tra le funzionalità principali ci sono il blocco delle
+      pubblicità, la generazione flessibile del codice sorgente e una
+      navigazione proxy avanzata.<br/><br/>Per le istruzioni di configurazione
+      complete, visita il nostro <github>repository GitHub</github> ufficiale o
+      la <docs>documentazione integrata disponibile qui</docs>.
+    docsTitle: Altre informazioni sull'hosting
+    imageAlt: Icona hosting e deploy
+    imageTitle: Hosting e deploy di InvisiProxy LTS
+
+  contributing:
+    title: Contribuire
+    body: >-
+      <strong>InvisiProxy LTS</strong> cresce grazie all'impegno dei nostri
+      fantastici collaboratori. Come progetto open source, <strong>InvisiProxy
+      LTS</strong> si affida alla passione della sua community per aggirare la
+      censura su internet e aiutare le persone ad accedere più facilmente alle
+      informazioni.
+    start: >-
+      Per iniziare a contribuire, visita il nostro <github>repository
+      GitHub.</github>
+    imageAlt: Icona GitHub per contribuire
+    imageTitle: Contribuisci a InvisiProxy LTS su GitHub
+
+  githubTitle: Repository GitHub di InvisiProxy LTS
+
+  bypass:
+    title: Aggira censura e filtri
+    body: >-
+      InvisiProxy LTS è un <strong>progetto di proxy web</strong> open source.
+      Goditi un accesso senza restrizioni ai contenuti online e alla navigazione
+      grazie alle nostre funzionalità avanzate di <strong>sblocco tramite proxy
+      web</strong>. Questo progetto ti permette anche di ospitarlo ovunque in
+      autonomia e di aggirare i blocchi nazionali o regionali, come quelli di
+      Cina (Great Firewall cinese - GFW) e Russia.
+
+  freeProxy:
+    title: Proxy web gratuito al 100%
+    body: >-
+      Approfitta del nostro <strong>servizio di proxy web gratuito</strong>, che
+      ti aiuta a <strong>sbloccare siti web</strong> e ad accedere a contenuti
+      con restrizioni. Perfetto per aggirare i filtri di scuola e/o lavoro:
+      questo progetto è fatto per sbloccare tutto.
+
+  tor:
+    title: Usa l'instradamento Tor nei browser Chromium e in Firefox
+    body: >-
+      Con InvisiProxy LTS puoi <strong>accedere alla rete Tor</strong>
+      direttamente dal tuo browser basato su Chromium o su Firefox. Questo
+      significa che puoi aprire i siti <strong>.onion</strong> direttamente da
+      questo sito web. Così puoi navigare in modo anonimo (almeno in parte: il
+      vero Tor offre protezioni migliori contro il fingerprinting) e aggirare
+      eventuali restrizioni regionali. Questo progetto supporta anche
+      l'impostazione di proxy SOCKS5 personalizzati per il proxychaining.
+
+  unrestricted: Navigazione libera e senza restrizioni
+  closing: È ora di navigare su internet in libertà.
+  tryFree: Prova InvisiProxy gratis
+
+settings:
+  title: Impostazioni
+  close: Chiudi le impostazioni
+
+  language:
+    title: Lingua
+    description: >-
+      Scegli la lingua del sito. L'opzione Automatica usa quella del tuo
+      browser.
+    automatic: Automatica
+
+  tab:
+    title: Camuffa la scheda del browser
+    description: >-
+      Personalizza il titolo e l'icona mostrati nella scheda del browser.
+    iconPreset: Icona preimpostata
+    selectPreset: Seleziona un'icona preimpostata
+    tabTitle: Titolo della scheda
+    tabTitlePlaceholder: Inserisci un titolo per la scheda…
+    iconUrl: URL dell'icona
+    apply: Applica
+    findIcon: Trova l'URL di un'icona →
+
+  fingerprint:
+    title: Camuffa l'impronta del browser
+    description: >-
+      Scegli quale browser vedono i siti aperti tramite proxy. Cambia lo user
+      agent inviato con le richieste e quello comunicato agli script delle
+      pagine.
+    current: 'Attuale: {name}'
+    default: Predefinito del browser
+    reset: Usa quello predefinito del browser
+    views:
+      desktop: Desktop
+      mobile: Mobile
+      console: Console
+      bot: Motore di ricerca
+      custom: Personalizzato
+    botWarning: >-
+      Molti siti verificano i crawler dei motori di ricerca e potrebbero
+      bloccare o modificare le pagine con questa opzione.
+    customLabel: User agent personalizzato
+    customPlaceholder: Mozilla/5.0 (…)
+    invalidCustom: >-
+      Inserisci uno user agent su una sola riga, lungo al massimo 512 caratteri.
+
+  browsing:
+    title: Navigazione
+    transport: Trasporto
+    searchEngine: Motore di ricerca
+    theme: Tema
+    themes:
+      dark: Scuro
+      light: Chiaro
+      nord: Nordico
+    autocomplete: Completamento automatico
+    autocompleteDescription: Mostra suggerimenti di ricerca tramite proxy.
+
+  privacy:
+    title: Privacy
+    hideAds: Nascondi annunci
+    hideAdsDescription: >-
+      Blocca gli annunci esterni durante la navigazione. Non rimuove i nostri
+      annunci sul sito.
+    blockPopups: Blocca annunci pop-up
+    blockPopupsDescription: >-
+      Impedisce ai nostri annunci di aprire nuove schede o di coprire la pagina.
+      I banner restano visibili.
+    hideHistory: Nascondi cronologia
+    hideHistoryDescription: >-
+      Elimina la cronologia di navigazione dal browser locale. La rete può
+      comunque vedere l'attività, ma mascherata.
+    preventLeaks: Blocca fughe dalle finestre
+    preventLeaksDescription: >-
+      Limita pop-up e nuove schede. Alcuni siti potrebbero non funzionare.
+    blockWebrtc: Blocca WebRTC
+    blockWebrtcDescription: >-
+      Nasconde ancora meglio il tuo IP ai siti. Videochiamate e streaming di
+      giochi non funzioneranno.
+    clearData: Cancella dati del sito
+    clearDataDescription: >-
+      Ti disconnette da tutti i siti e ripristina le impostazioni.
+    clearDataButton: Cancella
+    clearDataConfirm: >-
+      Vuoi cancellare tutti i dati del sito? Uscirai da tutti i siti visitati
+      qui e le impostazioni verranno ripristinate.
+
+  advanced:
+    title: Avanzate
+    tor: Navigazione Tor
+    torDescription: Instrada il traffico tramite Tor con libcurl.
+    region: Regione del proxy
+    regions:
+      default: Predefinita
+      sweden: Svezia
+      japan: Giappone
+    window: Tipo di finestra
+    windowDefault: Predefinito
+
+header:
+  logoLabel: Logo di InvisiProxy
+  homeTitle: Home page di InvisiProxy
+  primaryNav: Navigazione principale
+  moreOptions: Altre opzioni di navigazione
+  moreOptionsMenu: Sottomenu Altre opzioni
+  settingsMenu: Menu Impostazioni
+  toggleMenu: Mostra/nascondi il menu di navigazione
+  donate: Sostienici su Patreon
+  overview:
+    label: Panoramica
+    title: Panoramica - Scopri cosa offre questo sito
+  browse:
+    label: Naviga
+    title: Naviga - Aggira le restrizioni sul web
+  apps:
+    label: App
+    mobileLabel: Applicazioni
+    title: Applicazioni - Sfoglia una selezione di applicazioni utili
+  partners:
+    label: Utilità
+    title: Utilità - Esplora i progetti dei nostri partner
+  docs:
+    label: Documentazione
+    title: Documentazione - Informazioni dettagliate e guide
+  faq:
+    label: FAQ
+    title: FAQ - Domande frequenti e risposte
+  credits:
+    label: Crediti
+    title: Crediti - Ringraziamenti e contributi
+  privacy:
+    label: Privacy
+    mobileLabel: Termini
+    title: Informativa sulla privacy - Come tuteliamo la privacy degli utenti
+
+footer:
+  homeTitle: Home page di InvisiProxy
+  tagline: L'innovazione globale nei proxy web, fatta come si deve.
+  dependencies: Dipendenze
+  transports: Trasporti
+  services: Servizi
+  about: Informazioni
+  solidjs: >-
+    SolidJS - Reattività semplice e performante per creare interfacce utente.
+  vite: Vite - Strumenti frontend di nuova generazione.
+  wispurr: >-
+    Implementazione del server Wisp v1/v2 in Golang, ad alte prestazioni e ricca
+    di funzionalità.
+  nord: Nord Theme - Una palette di colori artica, dai toni blu nordici.
+  scramjet: >-
+    Scramjet - Scramjet è un proxy web versatile progettato per aggirare la
+    censura su internet.
+  wisp: >-
+    Wisp - Wisp è un protocollo leggero e facile da implementare per instradare
+    più socket TCP/UDP attraverso un unico websocket.
+  wispLabel: Protocollo Wisp
+  proxyTransports: >-
+    Proxy Transports - L'interfaccia di trasporto usata da Scramjet.
+  merp: Merp - Modulo di offuscamento avanzato
+  merpLabel: Offuscamento Merp
+  githubTitle: Repository GitHub di InvisiProxy
+  patreonTitle: Segui InvisiProxy su Patreon
+  privacy: Informativa sulla privacy
+  credits: Crediti
+  creditsTitle: Crediti e ringraziamenti
+  backToTop: Torna su
+  followGithub: Segui InvisiProxy su GitHub
+  followKofi: Segui lo sviluppatore su Ko-fi
+
+common:
+  logoAlt: Logo di InvisiProxy
+  advertisement: Pubblicità
+  description: >-
+    InvisiProxy è un servizio di proxy web sicuro, compatibile con moltissimi
+    siti. Aggira i filtri e goditi liberamente una navigazione privata più
+    sicura, oppure sblocca siti web su dispositivi come i Chromebook e in luoghi
+    come la scuola o il lavoro, senza scaricare nulla.
+
+mirrors:
+  toggle: Mirror
+  toggleTitle: Ottieni un altro link di InvisiProxy
+  title: Link mirror
+  close: Chiudi i link mirror
+  description: >-
+    Ottieni un altro link per continuare a usare InvisiProxy. Il tuo link resta
+    lo stesso per tutta la giornata e ogni giorno ne ricevi uno nuovo, man mano
+    che i link vengono rinnovati.
+  getLink: Ottieni il tuo link mirror
+  open: Apri il link mirror
+  openLabel: Apri un altro mirror di InvisiProxy
+  issues: Se hai problemi con i link, apri una issue su GitHub.
+
+proxySettings:
+  donate: >-
+    Offriamo domini premium, funzionalità in beta, connessioni ISP residenziali
+    e velocità maggiori. Puoi fare una donazione su
+    <patreon>Patreon</patreon>.<br/> Attiva Tor o l'instradamento regionale se
+    hai difficoltà a usare i servizi. Se hai problemi con il proxy, consulta la
+    pagina delle <faq>FAQ</faq>.
+  title: Preferenze proxy
+  connection: Connessione
+  searchNavFix: Attiva le correzioni per i siti
+  searchNavFixDescription: >-
+    Usa il plugin creato da The Freedom Project per correggere errori come
+    "undefined" durante la navigazione. Facoltativo.
+  experimentalSiteFixes: Correzioni sperimentali per i siti
+  experimentalSiteFixesDescription: >-
+    Un insieme di correzioni manuali per la compatibilità dei siti. Potrebbero
+    rompere alcuni siti e far trapelare il tuo vero IP: usale a tuo rischio.
+  hideHistoryDescription: >-
+    Nasconde la cronologia di navigazione locale. La rete può comunque
+    intercettarla, ma il traffico passa dal proxy.
+  randomizeFingerprint: Randomizza l'impronta del browser
+  randomizeFingerprintDescription: >-
+    Usa un browser desktop casuale per ogni sessione di scheda e aggiunge rumore
+    alle letture di canvas, WebGL, CPU e memoria. Uno user agent scelto da te ha
+    comunque la precedenza. Alcuni siti potrebbero non funzionare.
+  customWisp: Server Wisp personalizzato
+  customWispDescription: >-
+    Instrada il traffico del proxy attraverso il tuo server Wisp per un maggiore
+    controllo sulla privacy. Se vuoi far passare tutto il traffico dal tuo
+    self-hosting, questo è un metodo leggero: usi l'interfaccia di questo sito,
+    ma il traffico va ai tuoi server. Lascia vuoto per disattivarlo.
+  invalidWisp: Inserisci un indirizzo ws:// o wss://.
+  moreSettings: Mostra altre impostazioni
+  anotherLink: >-
+    Ti serve un altro link? Clicca sul <mirrors>pulsante dei link
+    mirror</mirrors>.
+
+faq:
+  meta:
+    title: FAQ di InvisiProxy | Errori di rete, CAPTCHA e problemi con YouTube
+    description: >-
+      Errore di rete, pagine vuote, CAPTCHA che si ripetono o YouTube che non si
+      carica? Ecco come risolvere i problemi più comuni di InvisiProxy e se è
+      sicuro accedere ai siti con il tuo account.
+    social: >-
+      Soluzioni rapide per errori di rete, pagine vuote, CAPTCHA che si ripetono
+      e riproduzione su YouTube, più risposte sul supporto a Discord e su come
+      accedere ai siti in sicurezza.
+  title: Domande frequenti
+  search: Cerca
+  searchLabel: Cerca nelle domande frequenti
+  icons:
+    question: >-
+      Come ottengo gli URL delle icone per il menu di camuffamento della scheda?
+    bookmarklet: >-
+      Vai sul sito da cui vuoi prendere l'icona, poi usa questo bookmarklet
+      (trascinalo nella barra dei preferiti):
+    button: Trova URL icona
+    copy: >-
+      Copia l'URL che ti fornisce il bookmarklet. Poi torna su InvisiProxy e
+      inseriscilo come URL dell'icona nelle Impostazioni. Buona navigazione!
+  networkError:
+    question: >-
+      Perché ricevo "Errore di rete" o un errore del sito ogni volta che uso il
+      proxy?
+    answer: >-
+      È un problema noto dei nostri proxy web moderni. A causa del numero di
+      utenti, di solito la connessione viene interrotta dopo dieci minuti di
+      inattività della scheda. Basta premere il pulsante Aggiorna pagina e
+      ricaricare la pagina per risolvere.
+    note: >-
+      Di solito succede la prima volta che usi il proxy. Abbiamo in programma
+      una soluzione.
+  bot:
+    question: >-
+      Ho problemi ad accedere ai siti o a vedere i contenuti perché mi scambiano
+      per un bot.
+    answer: >-
+      Nelle ore di punta è molto comune, perché tutto il traffico passa da due
+      soli indirizzi IP. La soluzione è cambiare la regione del proxy nelle
+      impostazioni oppure attivare l'instradamento Tor. Puoi anche abbonarti al
+      nostro Patreon per accedere a un'istanza con ISP residenziale ed evitare
+      il problema.
+  unreachable:
+    question: >-
+      Ricevo un errore simile a: "Impossibile raggiungere 'cdn.example.com'."
+    answer: >-
+      Ricarica la pagina. Se al primo tentativo non funziona, usa il pulsante
+      Indietro del browser o torna alla pagina di Scramjet e riprova.
+  blank:
+    question: Perché il sito si carica solo in parte o resta vuoto?
+    answer: >-
+      Non tutti i siti web sono supportati. È inevitabile, data la vastità del
+      web e la varietà di tecnologie e metodi con cui i contenuti vengono
+      caricati. Se hai problemi con un sito specifico, segnalacelo sul nostro
+      server Discord o su GitHub. Altrimenti prova le varie opzioni del proxy
+      per vedere se una di queste supporta il sito.
+  idb:
+    question: >-
+      Ricevo un errore che fa riferimento a un database IDB (problema di
+      Scramjet V1)
+    answer: >-
+      Di solito succede quando aggiorniamo il progetto. Clicca sull'icona (i) in
+      alto a sinistra nel browser (o sul lucchetto) e seleziona "Cancella dati
+      sito" oppure "Cookie e dati dei siti > Gestisci dati sul dispositivo >
+      icona del cestino". In questo modo il database IndexedDB viene svuotato e
+      potrai usare di nuovo il proxy.
+  discord:
+    question: Discord è supportato?
+    answer: Sì, Discord è supportato.
+    note: >-
+      Tuttavia, con i proxy gratuiti ci sono alcune limitazioni. Non usare il
+      tuo account principale, a meno che tu non usi il self-hosting o un dominio
+      con pochi utenti.
+  youtube:
+    question: Perché i video di YouTube non funzionano?
+    answer: >-
+      Se i problemi persistono anche dopo aver seguito i passaggi qui sopra, è
+      possibile che l'istanza sia temporaneamente fuori servizio, soprattutto se
+      molte persone hanno lo stesso problema. Con il self-hosting questo
+      problema non si presenta.
+    tor: >-
+      Prova a selezionare l'opzione "Tor": potrebbe risolvere il problema, ma
+      rallenta molto il caricamento.
+  login:
+    question: È sicuro accedere ai siti con il mio account?
+    answer: >-
+      Sì, è sicuro accedere ai siti. Tuttavia ti consigliamo di non accedere a
+      siti di cui non ti fidi e di non usare account personali, vista la
+      quantità di traffico che passa da un unico dominio. Cerchiamo di limitare
+      il problema ruotando gli IP, ma è buona norma non usare account personali
+      sui proxy pubblici. Con il self-hosting, invece, puoi farlo senza
+      problemi. Puoi anche abbonarti al Patreon per usare un ISP residenziale ed
+      evitare il problema.
+  captcha:
+    question: >-
+      Perché il sito che sto usando non funziona correttamente o mostra errori
+      CAPTCHA?
+    answer: >-
+      I CAPTCHA funzionano con Scramjet, ma servono un po' di tentativi. Il
+      motivo è che Scramjet spesso è semplicemente troppo veloce e i CAPTCHA
+      sono per natura molto capricciosi. La soluzione è continuare a provare a
+      risolvere il CAPTCHA finché non funziona. Cerca di non andare troppo
+      veloce.
+  youtubeBlank:
+    question: >-
+      Quando uso YouTube su uno dei siti proxy, perché la pagina non si carica
+      del tutto o il video resta bianco?
+    answer: 'Ci sono due modi per risolvere:'
+    reload: >-
+      Ricarica normalmente la pagina quando compare l'errore descritto sopra: il
+      video dovrebbe caricarsi.
+    reloadFrame: >-
+      Oppure fai clic destro sulla pagina e scegli <code>Ricarica frame</code>,
+      se stai usando una modalità Stealth.
+
+privacy:
+  title: Informativa sulla privacy
+  subtitle: InvisiProxy, un servizio di proxy web privato.
+  effective: 'Data di decorrenza: 16/07/2021'
+  updated: 'Ultimo aggiornamento: 31/10/2026'
+  what:
+    title: Che cos'è InvisiProxy?
+    body: >-
+      InvisiProxy LTS è un servizio di proxy web che ti aiuta ad accedere ai
+      siti che potrebbero essere bloccati dalla tua rete, dal tuo governo o da
+      regole interne, il tutto dal browser, senza download né configurazioni. Lo
+      fa in modo sicuro e con funzionalità aggiuntive per la privacy. Naviga sui
+      siti Tor/Onion da qualsiasi browser, nascondi la tua attività di
+      navigazione e aggira i filtri. Questo include la potenziale capacità di
+      aggirare i blocchi dei contenuti imposti dai governi, le estensioni di
+      Chrome, i firewall locali dei dispositivi e i filtri di rete.<br/>Questo
+      progetto nasce soprattutto come proof of concept della soluzione ideale
+      per aggirare la censura senza installare nulla.
+  data:
+    title: Vengono raccolti dati?
+    body: >-
+      InvisiProxy di per sé non registra né raccoglie la tua navigazione. I log
+      sono disattivati sul backend per tutelare la privacy degli utenti. L'unica
+      eccezione è il pulsante dei link mirror, che conserva il tuo indirizzo IP
+      in memoria per pochi secondi per prevenire gli abusi; non viene mai
+      scritto su disco. I partner pubblicitari sui domini con pubblicità
+      raccolgono i propri dati, come descritto più avanti nella sezione
+      Pubblicità. Le query NextDNS sono configurate per non registrare gli IP
+      dei client né i domini, e i dati sono conservati in Svizzera. La
+      conservazione dei log di NextDNS, limitata ai valori numerici, è minima e
+      serve a garantire il corretto funzionamento del servizio. Cloudflare viene
+      usato in questo progetto per migliorare le prestazioni e semplificare la
+      gestione dei DNS, vista la portata del progetto. Come minimo, i dati
+      numerici di Cloudflare vengono usati per contare visite e visualizzazioni
+      di pagina, così da capire quando servono potenziamenti dei server. NGINX è
+      configurato per non conservare alcun log. InvisiProxy LTS tiene fede al
+      suo impegno di porre fine alla censura su internet e di tutelare la
+      privacy degli utenti. Oltre a questo, il protocollo Wisp (per instradare
+      le connessioni TCP) viene usato con libcurl-transport per la crittografia
+      end-to-end, eseguendo SSL/TLS all'interno di WebAssembly. Questo servizio
+      è pensato per essere il più trasparente possibile e ricorda che puoi
+      ospitarlo tu stesso in qualsiasi momento, per avere il pieno controllo su
+      tutto.<br/><br/>Se vuoi fare una dichiarazione o una richiesta relativa
+      alla privacy, contattaci su Discord.
+  security:
+    title: Sicurezza
+    body: >-
+      InvisiProxy LTS è costruito da zero per offrire ai suoi utenti un servizio
+      di proxy web sicuro e affidabile. Una delle tecnologie alla base di
+      InvisiProxy LTS è il nuovo protocollo Wisp, sviluppato da Mercury
+      Workshop.<br/><br/>Questo protocollo introduce diverse funzionalità e
+      miglioramenti innovativi che contribuiscono alla velocità e alla sicurezza
+      del servizio rispetto ai modelli precedenti.
+    intro: >-
+      Il protocollo Wisp è progettato per gestire le esigenze del traffico web
+      moderno mantenendo elevati standard di sicurezza. Implementando Wisp,
+      questo progetto ottiene i seguenti vantaggi:
+    performance: >-
+      Prestazioni: il protocollo Wisp ottimizza la velocità di trasferimento dei
+      dati TCP, garantendo agli utenti una latenza minima durante la
+      navigazione.
+    compatibility: >-
+      Compatibilità: Wisp è progettato per essere compatibile con un'ampia gamma
+      di tecnologie web, garantendo un accesso fluido a siti e servizi online di
+      ogni tipo. Questo avviene grazie al supporto di vari trasporti open source
+      che seguono il protocollo (Libcurl Transport).
+    censorship: >-
+      Resistenza alla censura: il protocollo è progettato per aggirare le
+      tecniche di censura sofisticate usate dalle reti restrittive, permettendo
+      agli utenti di accedere con facilità ai contenuti bloccati.
+    fingerprinting: >-
+      Resistenza al fingerprinting: questo progetto dispone di solidi meccanismi
+      contro il fingerprinting nella configurazione del reverse proxy delle
+      istanze ufficiali. Ciò significa che il proxy è progettato per ridurre al
+      minimo gli identificatori univoci che possono essere usati per tracciare o
+      identificare gli utenti, migliorando così la privacy. Seguendo le migliori
+      pratiche del settore e aggiornando costantemente i propri metodi, permette
+      agli utenti di navigare in modo anonimo senza lasciare tracce
+      identificabili.
+    transparency: >-
+      Trasparenza: la trasparenza è un principio chiave di InvisiProxy LTS. Il
+      progetto adotta un modello open source, che permette alla community di
+      esaminare il codice e di contribuire. Questa apertura non solo favorisce
+      la fiducia, ma consente anche un miglioramento continuo grazie ai feedback
+      e alla collaborazione della community. Adottando pratiche trasparenti,
+      InvisiProxy LTS fa in modo che gli utenti sappiano come vengono trattati i
+      loro dati e quali misure sono in atto per proteggere la loro privacy.
+    randomisation: >-
+      Randomizzazione del codice sorgente e globale: per migliorare
+      ulteriormente sicurezza e privacy, InvisiProxy LTS usa la randomizzazione
+      del codice sorgente e delle variabili globali. Questo permette al progetto
+      di restare sbloccato più a lungo sui domini e migliora anche l'anonimato
+      durante la navigazione. I proxy web tradizionali lasciano tracce ogni
+      volta che riscrivono le risorse, ma con questo metodo è molto più
+      difficile rilevare il proxy e bloccarlo.
+    encryption: >-
+      Crittografia: InvisiProxy LTS usa tecnologie proxy avanzate incentrate
+      sulla crittografia end-to-end e sul trasferimento sicuro dei dati, in
+      particolare nel contesto dei proxy che riscrivono gli URL. NOTA: è ancora
+      un lavoro in corso, con molto da fare, e aperto ai contributi.
+    audits: >-
+      Audit regolari: vengono condotti audit di sicurezza periodici per
+      individuare e correggere potenziali vulnerabilità.
+  advertising:
+    title: Pubblicità
+    body: >-
+      Alcuni domini di InvisiProxy mostrano annunci per coprire i costi di
+      hosting. Le istanze Patreon sono sempre senza pubblicità. Gli annunci sono
+      forniti da reti di terze parti: Adsterra, Adcash e Monetag. Compaiono solo
+      nelle pagine e nelle schermate di caricamento di InvisiProxy, mai
+      all'interno dei siti che visiti tramite il proxy.<br/><br/>Quando un
+      annuncio viene caricato, la rete pubblicitaria riceve il tuo indirizzo IP,
+      lo user agent del browser, il dominio che stai visitando e dettagli
+      tecnici simili, e può impostare o leggere i propri cookie o usare
+      tecnologie simili per mostrare annunci, limitare quante volte li vedi,
+      misurarne il rendimento e prevenire le frodi. Queste reti possono eseguire
+      il proprio codice nelle nostre pagine; il modo in cui trattano i tuoi dati
+      è regolato dalle loro informative sulla privacy, non dalla
+      nostra.<br/><br/>Puoi bloccare gli annunci con un'estensione per il blocco
+      dei contenuti come uBlock Origin, oppure usare un'istanza Patreon.
+  usage:
+    title: Cookie e archiviazione locale
+    storage: >-
+      InvisiProxy usa "cookie", IndexedDB, localStorage e sessionStorage per
+      mantenere una sessione utente (descritta più avanti) e salvare le tue
+      preferenze sul tuo computer. Tutte queste informazioni restano sul tuo
+      dispositivo e InvisiProxy non ne usa nessuna a fini statistici. I partner
+      pubblicitari possono salvare i propri cookie, come descritto nella sezione
+      Pubblicità.
+    cookies: >-
+      Un cookie è una stringa di informazioni che un sito web salva sul computer
+      di chi lo visita e che il browser invia al sito ogni volta che il
+      visitatore ritorna. InvisiProxy usa i cookie per garantire il corretto
+      funzionamento del menu Impostazioni e, infine, per le preferenze
+      dell'utente. Chi non desidera che vengano salvati cookie sul proprio
+      computer dovrebbe impostare il browser per rifiutarli prima di usare i
+      siti di InvisiProxy, tenendo presente che alcune funzionalità di
+      InvisiProxy NON funzioneranno correttamente senza cookie, localStorage o
+      IndexedDB. InvisiProxy non usa cookie, IndexedDB, localStorage o
+      sessionStorage a fini statistici; li usano solo le seguenti funzioni, per
+      salvare dati persistenti in locale: Scramjet (cache delle risorse caricate
+      tramite proxy, stato della sessione, ecc.), schede, preferiti,
+      completamento automatico (tramite proxy) e il menu Impostazioni
+      (camuffamento della scheda, icone preimpostate, opzioni di trasporto,
+      motori di ricerca, temi, lingua, tipo di finestra, instradamento Tor,
+      cambio di regione, nascondi annunci, cronologia nascosta, blocco delle
+      fughe dalle finestre, blocco di WebRTC e randomizzazione dell'impronta).
+    serviceWorkers: >-
+      Inoltre, InvisiProxy usa i Service Worker come tecnologia per i propri
+      proxy web. Questo permette di intercettare il traffico di rete interessato
+      e altro ancora, ed è una funzione fondamentale del progetto.
+    consent: >-
+      Continuando a navigare sul nostro sito senza modificare le impostazioni
+      dei cookie, riconosci e accetti l'uso dei cookie da parte di InvisiProxy e
+      i cookie dei partner pubblicitari descritti sopra, laddove la legge non
+      richieda un tuo consenso separato.
+  changes:
+    title: Nota finale
+    body: >-
+      Sebbene la maggior parte delle modifiche sarà probabilmente di poco conto,
+      InvisiProxy può modificare di tanto in tanto la propria Informativa sulla
+      privacy, a sola discrezione di InvisiProxy LTS. InvisiProxy LTS invita i
+      visitatori a controllare spesso questa pagina per eventuali modifiche
+      all'Informativa sulla privacy. Se continui a usare questo sito dopo una
+      modifica dell'Informativa sulla privacy, accetti tale modifica. In caso di
+      abusi o attacchi DDoS, InvisiProxy LTS potrebbe essere costretto a
+      registrare temporaneamente dei dati per mitigare l'attacco e garantire
+      l'operatività del servizio. In questi casi, tutti i dati registrati
+      verranno eliminati in modo sicuro subito dopo la mitigazione dell'attacco.
+  contact:
+    title: Contatti e crediti
+    body: >-
+      Per qualsiasi domanda sulla nostra Informativa sulla privacy, contattaci
+      via email all'indirizzo
+
+docs:
+  chemical: >-
+    Prova <chemical>Chemical</chemical> se vuoi creare da zero il tuo servizio
+    di proxy web.
+  chemicalButton: Crea il tuo sito proxy con Chemical
+  formerly: In precedenza Holy Unblocker LTS
+  badges:
+    ci: Stato di GitHub Actions
+    dockerVersion: Versione dell'immagine Docker
+    dockerPulls: Pull dell'immagine Docker
+  intro: >-
+    <strong>InvisiProxy LTS</strong> (in precedenza Holy Unblocker LTS) è un
+    servizio di proxy web sperimentale in grado di aggirare i filtri web o
+    "blocchi", che la censura avvenga sul dispositivo o a livello di rete.
+    Questo include la possibilità di aggirare i blocchi dei contenuti imposti
+    dai governi, le estensioni di Chrome, i firewall locali dei dispositivi e i
+    filtri di rete. Il progetto permette perfino di navigare sui siti Tor/Onion
+    da qualsiasi browser (anche Chromium), il tutto tramite un sito web!
+  star: Puoi sostenere InvisiProxy aggiungendo una stella al repository!
+  about: >-
+    Questo progetto nasce soprattutto come proof of concept della soluzione
+    ideale per aggirare la censura senza installare nulla. È utile, per esempio,
+    se ti serve un modo per usare Tor, cambiare regione durante la navigazione
+    (o usare un proxy esterno), navigare sui siti senza creare account
+    (riducendo il fingerprinting), aggirare le restrizioni sull'adblock e/o
+    lasciare tracce minime dell'attività sul dispositivo. Ti basta ospitare
+    questo progetto su un dominio qualsiasi per avere un'alternativa a una VPN,
+    senza dover scaricare nulla sul dispositivo. Essendo un servizio di proxy
+    web sicuro, supporta numerosi siti, viene aggiornato spesso e punta a essere
+    facile da ospitare in autonomia. InvisiProxy LTS funziona con un gran numero
+    di siti, tra cui YouTube, Gemini, ChatGPT, Discord, GeForce NOW e altri
+    ancora! Il progetto offre anche diverse funzionalità esclusive rispetto ad
+    altri proxy web per aggirare i filtri web (mascheramento del DOM e
+    randomizzazione del codice sorgente) e la censura dei vari paesi. Al momento
+    sono supportate Cina (GFW) e Russia.
+  users: >-
+    Oltre 30 milioni di utenti dal 2020. Grazie di cuore per il supporto: non
+    avrei mai immaginato quanto sarebbe diventata grande la community dei proxy
+    web.
+  branches:
+    current: 'Branch attuale: Latest'
+    title: Tipi di branch
+    latest: Latest (master; pensato per FOSS e SEO)
+    beta: Beta (modifiche in attesa; potrebbero rompere qualcosa)
+    production: >-
+      Production (v4, v5, v6; versione stabile di InvisiProxy LTS. Modifiche per
+      il self-hosting in ambienti di produzione; massima elusione dei filtri e
+      gestione ottimale delle richieste)
+    switch: Valuta di passare a un branch di produzione per il self-hosting!
+  selfHost: >-
+    Consulta le <deploy>opzioni di deploy in autonomia</deploy> se vuoi ospitare
+    tu stesso questo progetto. Non riesci a fare il deploy con nessuna delle
+    opzioni gratuite? Dai un'occhiata a Koyeb o valuta soluzioni di hosting VPS
+    economiche a pagamento. Se non vuoi ospitarlo tu, clicca sul menu dei link
+    mirror di InvisiProxy.
+  discord: >-
+    Unisciti al Discord di TitaniumNetwork per altri link ufficiali al sito:
+  caution:
+    title: Attenzione
+    body: >-
+      Se intendi ospitare InvisiProxy LTS in autonomia, passa al branch
+      PRODUCTION, dove le funzionalità di elusione dei filtri sono attive
+      automaticamente. Il branch master contiene modifiche in lavorazione non
+      ancora pronte per il self-hosting. Se invece vuoi contribuire al progetto,
+      apri le PR sul branch master.
+  tip:
+    title: Suggerimento
+    body: >-
+      InvisiProxy LTS è ottimizzato per il self-hosting, per darti il massimo
+      controllo sulla privacy! Fai un fork di questo repository e valuta di
+      aggiungere una stella. Puoi ospitarlo con opzioni di deploy gratuite o a
+      pagamento, oppure configurarlo su un'istanza dedicata (VPS) per
+      prestazioni migliori.
+  sites:
+    site: Siti supportati
+    features: Funzionalità
+    youtube: >-
+      Varietà integrata di proxy web open source, incentrati sulla velocità e/o
+      sulla sicurezza
+    reddit: >-
+      Randomizzazione del codice sorgente e mascheramento del DOM per aggirare
+      efficacemente i principali filtri, oltre alla randomizzazione delle
+      variabili globali del proxy
+    discord: >-
+      Personalizzazione di titolo e icona della scheda dal menu Impostazioni,
+      per una cronologia di navigazione più discreta
+    instagram: >-
+      Blocco delle pubblicità su tutti i siti durante la navigazione e DNS a
+      bassa latenza sui server ufficiali
+    tor: >-
+      Supporto per SOCKS5 e instradamento Onion con Tor dal menu Impostazioni.
+      Usa i siti Tor/Onion da qualsiasi browser!
+    geforce: >-
+      Funzionalità esclusive rispetto ad altri proxy web per aggirare i filtri
+      web e la censura dei vari paesi.
+    chatgpt: >-
+      Cronologia di navigazione locale nascosta, prevenzione delle fughe dalle
+      schede e traffico di rete offuscato!
+    spotify: Aggira i blocchi regionali cambiando regione o attivando Tor
+    more: E in pratica quasi tutti i siti!
+    moreFeature: >-
+      Pensato per carichi di produzione intensi e per una configurazione
+      semplice
+  deploy:
+    title: Deploy di InvisiProxy
+    free: Deploy gratuiti
+    alternatives: Altre opzioni gratuite
+    paid: >-
+      Opzioni di produzione a pagamento/gratuite (richiedono i dati di
+      pagamento)
+    to: Deploy su {name}
+    run: Esegui su {name}
+    replitTitle: Che fine ha fatto il deploy su Replit/Heroku?
+    replit: >-
+      Replit non è più gratuito e Heroku ha una policy contraria ai proxy web.
+      Prova GitHub Codespaces o Gitpod per sviluppare nel cloud OPPURE Koyeb per
+      un hosting gratuito.
+  codespaces:
+    title: Istruzioni di configurazione
+    fork: >-
+      Fai un fork di questo repository sul tuo account GitHub (e aggiungi una
+      stella!)
+    open: >-
+      Vai sul sito ufficiale di <codespaces>Codespaces</codespaces> (assicurati
+      di avere già un account GitHub)
+    select: >-
+      Seleziona <strong>New Codespaces</strong> e cerca
+      <em>[USERNAME]/InvisiProxy</em> nel tuo account
+    branch: >-
+      Assicurati che il branch sia impostato su <code>master</code> e che la
+      configurazione del dev container sia impostata su <strong>InvisiProxy
+      LTS</strong>
+    create: >-
+      Seleziona <strong>Create Codespace</strong> e attendi che il container
+      venga configurato
+    install: >-
+      Digita <code>pnpm run fresh-install</code> e <code>pnpm start</code> nel
+      terminale
+    ports: >-
+      Clicca su "Make public" nel pop-up dell'applicazione, poi apri il sito
+      distribuito dalla scheda Ports.
+  partners:
+    title: Partner
+    hardFork: '{name} (Hard Fork)'
+    partner: '{name} (Partner)'
+  toc:
+    title: 'Indice:'
+    setup: Configurazione
+    terminal: Terminale
+    configuration: Configurazione del progetto
+    server: Configurazione del server
+    tor: Instradamento TOR
+    proxy: Proxy
+    navigation: Navigazione lato client
+    translations: Traduzioni
+    structure: Struttura
+    structureInfo: Informazioni sulla struttura
+    views: File statici
+    scripts: Script
+    future: Sviluppi futuri
+    beginners: Spiegazione per principianti
+    hosting: Provider di hosting
+    domain: Configurazione del dominio
+    cloudflare: Configurazione di Cloudflare
+    workspace: Configurazione dell'ambiente di lavoro
+    faq: FAQ dettagliate
+    more: Altre informazioni
+  setup:
+    title: Come configurare InvisiProxy
+    branchWarning: >-
+      Ti consigliamo vivamente di passare, dal tuo IDE, a un branch di
+      produzione già rilasciato. Il branch master contiene spesso modifiche
+      instabili o in lavorazione.
+    branchExample: 'Esempio: v6.x_production invece di master'
+    terminal: Terminale
+    terminalIntro: >-
+      Usa il pulsante qui sopra per fare il deploy su una delle opzioni
+      elencate, oppure digita i comandi qui sotto su un server dedicato
+    nginxOnly: QUESTO PROGETTO È PENSATO PER NGINX, NON PER CADDY.
+    requirements: >-
+      Assicurati inoltre di usare <code>Node 26.x</code>. <code>git</code> e
+      <code>curl</code> sono dipendenze obbligatorie:
+    builtIn: >-
+      Questo sito è ospitato in locale con <scramjet>Scramjet</scramjet>,
+      <wisp>Wisp</wisp>, <merp>Merp (offuscamento)</merp>,
+      <epoxy>EpoxyTransport</epoxy> e <libcurl>LibcurlTransport</libcurl>
+      integrati.
+    caddyWarning: >-
+      Per motivi di sicurezza, se usi un reverse proxy, usa NGINX e NON Caddy.
+      Il motivo è che wispurr usa i loopback. Se usi Caddy, disattiva questa
+      funzionalità o modifica la configurazione predefinita di Caddy.
+    resources: 'Risorse per il self-hosting:'
+  commands:
+    pm2Config: >-
+      Modifica config.js e imposta production su true se vuoi usare pm2
+      (semplifica l'hosting su VPS)
+    pm2: Uso del demone pm2
+    restart: Oppure, per gli avvii successivi...
+    kill: Per terminare i processi di produzione avviati con pm2
+    buildErrors: Se incontri errori di build...
+    serviceErrors: Se incontri errori del servizio...
+    nodeVersion: 26 o la più recente
+    start: Se vuoi avviare il progetto
+    test: Per testare endpoint ed errori
+    prSet: Qui il codice della funzione prSet....
+  ubuntu:
+    title: Configurazione dettagliata (esempio con Ubuntu)
+    intro: >-
+      Ti serviranno <code>Node.js 26.x</code>, <code>curl</code> e
+      <code>git</code>; qui sotto trovi un esempio di configurazione per
+      Debian/Ubuntu.
+    summary: Guida passo passo
+    mirrors: >-
+      Per semplicità puoi unirti al Discord di TN su discord.gg/unblock e
+      richiedere i link dei siti mirror (che vengono riforniti e sbloccati).
+    hosting: Hosting
+    hostingBody: >-
+      Se invece vuoi ospitarlo tu stesso, ti servirà prima un VPS o un provider
+      di hosting:
+    dependencies: Dipendenze
+    dependenciesBody: >-
+      Poi dovrai installare git, musl, nginx (o caddy) e Node.js. Ecco un
+      esempio per Ubuntu LTS:
+    tor: Supporto Tor (facoltativo)
+    configure: Configurare InvisiProxy
+    configureBody: >-
+      Le opzioni più importanti sono production e le tecniche di offuscamento e
+      di mascheramento del DOM.
+    configureMore: 'Da lì, configura secondo le tue esigenze:'
+    run: Clonare ed eseguire InvisiProxy
+    runBody: >-
+      Poi avvia il processo; se nella configurazione hai impostato production su
+      true, pm2 verrà attivato automaticamente con il nostro sistema di worker e
+      cache.
+    restart: >-
+      Infine, se hai usato NGINX o Caddy, ricordati di riavviarlo o ricaricarlo
+  config:
+    title: Configurazione
+    server: Configurazione del server
+    port: >-
+      La PORTA predefinita del proxy all'avvio è
+      <code>http://localhost:8080</code>. Se necessario, puoi cambiare la PORTA
+      e altri parametri di produzione in <code>./ecosystem.config.js</code>.
+    local: >-
+      Tutte le altre modifiche locali per la randomizzazione del codice
+      sorgente, la minificazione automatica, ecc. si trovano in
+      <code>./config.json</code>.
+    options:
+      minifyScripts: >-
+        Minifica automaticamente le risorse statiche all'avvio del server.
+      randomizeIdentifiers: >-
+        Attiva la randomizzazione sperimentale delle variabili globali del proxy
+        per Ultraviolet. Riduce le probabilità che UV venga rilevato dai filtri
+        basati su estensioni.
+      production: >-
+        Usa una configurazione di produzione preimpostata per l'hosting su
+        server. Include già la gestione della cache e le riscritture del codice
+        sorgente.
+      disguiseFiles: >-
+        Attiva il mascheramento del DOM, che offusca le vere richieste di
+        contenuti di InvisiLTS. Funziona camuffando le richieste,
+        decomprimendole e poi ricostruendo l'albero DOM.
+      usingSEO: >-
+        Attiva la randomizzazione del codice sorgente, che rende casuale il
+        sorgente scambiando blocchi di dati specificati in
+        <code>./src/data.json</code>. Molto utile per mascherare le parole
+        chiave che farebbero segnalare o bloccare automaticamente InvisiProxy
+        LTS, oltre a prevenire i blocchi basati sul sorgente.
+      verbose: >-
+        Mostra i messaggi di compilazione e di build, per seguire l'avanzamento
+        e i possibili problemi durante la compilazione.
+      mirrorLinksFile: >-
+        File usato solo dal server per il distributore della pagina dei link,
+        con valore predefinito <code>private/mirror-links.txt</code>. I percorsi
+        relativi vengono risolti a partire dalla radice del progetto; sono
+        supportati anche i percorsi assoluti. Inserisci un URL HTTP(S) per riga
+        e tieni il file fuori da <code>views/</code>, così non viene servito
+        pubblicamente. Riavvia il server dopo aver modificato questa
+        impostazione.
+      geoLanguage: >-
+        Attiva la selezione automatica della lingua tramite l'header
+        <code>CF-IPCountry</code> di Cloudflare. Attivala solo dietro
+        Cloudflare, perché altrimenti l'header può essere impostato da chiunque.
+        I paesi sono elencati per ogni lingua in <code>language.countries</code>
+        in ciascun file <code>./locales/*.yaml</code>.
+      singleLanguage: >-
+        Se è <code>true</code>, viene compilata solo la lingua impostata in
+        <code>language</code> e tutti i visitatori ricevono quella, con
+        l'impostazione Lingua nascosta. Utile per Docker o per altri deploy che
+        richiedono una sola lingua, perché le build sono più veloci e leggere.
+        Il valore predefinito è <code>false</code>.
+      language: >-
+        La lingua da compilare quando <code>singleLanguage</code> è attivo,
+        corrispondente a un file in <code>./locales/</code> (es. <code>it</code>
+        per <code>it.yaml</code>). Il valore predefinito è <code>en</code>. Per
+        Docker, impostala in <code>config.json</code> prima di eseguire
+        <code>docker build</code> o <code>docker compose build</code>, perché le
+        lingue vengono scelte al momento della build.
+  translations:
+    title: Traduzioni
+    crowdin: >-
+      InvisiProxy LTS viene tradotto su <crowdin>Crowdin</crowdin> e chiunque
+      può contribuire senza toccare il codice. Unisciti al progetto, scegli una
+      lingua e inizia a tradurre. Le traduzioni completate vengono sincronizzate
+      automaticamente in <code>./locales/</code>.
+    rules: >-
+      Consulta <readme/> per le regole di traduzione (segnaposto, tag e termini
+      mascherati). Se la tua lingua non è presente su Crowdin, apri una issue o
+      chiedi su Discord.
+  tor:
+    title: Configurazione dell'instradamento Tor/Onion/SOCKS5
+    intro: >-
+      Devi configurare Tor (va bene senza interfaccia grafica, ma anche con; in
+      quel caso sostituisci la porta 9050 con la 9150) perché l'impostazione di
+      instradamento Onion funzioni!
+    guide: 'Ospita Tor seguendo questa guida:'
+    cliGuide: 'Guida alternativa (da riga di comando):'
+    body: >-
+      Se ospiti InvisiProxy LTS su un VPS con Ubuntu, valuta di collegare Tor a
+      systemctl per gestirlo più facilmente in produzione. Una volta che Tor è
+      attivo su Linux o Windows, funzionerà automaticamente con InvisiProxy LTS
+      quando l'utente lo attiva dal menu Impostazioni.
+    customWisp: >-
+      Gli utenti possono anche impostare un proprio server Wisp nelle Preferenze
+      proxy.
+    customProxy: >-
+      Se vuoi usare un proxy HTTP/HTTPS/SOCKS5 personalizzato per instradare il
+      traffico di Scramjet, la gestione avviene sul server in
+      <code>./src/server/wisp.ts</code>.
+  proxy:
+    title: Configurazione del proxy
+    body: >-
+      Il file principale in cui modificare le impostazioni dei proxy web
+      assegnate tramite il menu Impostazioni è
+      <code>./views/assets/js/register-sw.js</code>. Qui puoi modificare le
+      opzioni di trasporto impostate localmente tramite un cookie, sostituire i
+      proxy SOCKS5, cambiare le porte dell'instradamento Onion, specificare una
+      blacklist e altro ancora.
+    options:
+      stockSW: >-
+        Il file di configurazione predefinito del service worker per
+        Ultraviolet. In InvisiProxy, però, il blocco delle pubblicità è attivo
+        automaticamente, quindi di default non viene usato.
+      blacklistSW: >-
+        Una versione modificata di Ultraviolet che permette di mettere in
+        blacklist i domini e di bloccare le pubblicità.
+      proxyUrl: >-
+        Specifica un URL con protocollo SOCKS5/HTTPS/HTTP, che per impostazione
+        predefinita punta alla porta proxy predefinita di Tor. Può essere
+        sostituito con qualsiasi porta valida o proxy SOCKS5. Questo avviene
+        tramite l'opzione proxy sia per epoxy sia per libcurl.
+      transports: >-
+        Specifica le porte da scambiare tramite Bare-Mux per usare Wisp.
+      wispUrl: Modifica il percorso o la gestione dell'URL per Wisp
+      defaultMode: >-
+        Specifica il trasporto predefinito usato a livello globale (gli utenti
+        possono comunque cambiarlo dal menu Impostazioni)
+      ScramjetController: >-
+        Questo costruttore permette di cambiare dinamicamente il prefisso usato
+        per Scramjet e di specificare la posizione dei file. Nota: se cambi i
+        nomi dei file, potrebbe essere necessario modificare
+        <code>./views/scram/scramjet.sw</code>.
+  navigation:
+    title: Configurazione della navigazione lato client
+    body: >-
+      Il file principale per gli script di navigazione lato client è
+      <code>./views/assets/js/common.js</code>. Viene usato soprattutto per la
+      funzionalità Omnibox (motore di ricerca), per cambiare le opzioni del
+      proxy e per altre impostazioni del client.
+    options:
+      getDomain: >-
+        Questa costante serve a specificare i sottodomini da rimuovere quando si
+        inserisce un URL nell'omnibox.
+      goFrame: Specifica il frame stealth usato da InvisiProxy LTS
+      sx: >-
+        Questa costante specifica il motore di ricerca da usare tramite proxy
+        quando l'utente digita qualcosa che non è un URL
+      search: >-
+        Queste funzioni specificano e analizzano le query usate per gli URL
+        inviati
+      urlHandler: Serve a impostare le funzioni dell'oggetto goProx.
+      goProx: >-
+        Questa costante permette di mappare la gestione degli URL per proxy
+        specifici o per link che devono passare da un proxy web.
+      prSet: >-
+        Collega tramite goProx gli event listener ai pulsanti o ai campi di
+        input necessari
+      huLinks: >-
+        Prende automaticamente i percorsi indicati in
+        <code>./views/assets/json</code> e li aggiunge in base alla pagina e
+        all'uso. Serve a nascondere i link che porterebbero ai blocchi dei
+        filtri e a semplificare l'aggiunta di nuove app.
+  structure:
+    title: Struttura
+    summary: Pagine web
+    info: Informazioni sulla struttura
+    root:
+      views: >-
+        Qui si trova la base fisica del sito di InvisiProxy, da cui vengono
+        servite le risorse statiche.
+      src: >-
+        Per l'implementazione futura delle funzionalità di offuscamento e
+        rimozione delle parole chiave.
+    views: Dettagli di <code>/views/</code>
+    folders:
+      dist: contiene i file minificati. Si genera durante la build.
+      pages: contiene l'HTML del sito.
+      assets: contiene vari file CSS, JS, immagini e JSON.
+      scram: >-
+        contiene l'implementazione locale di Scramjet. Alcuni file vengono
+        sostituiti da quelli del modulo node.
+      uv: contiene l'implementazione di UV.
+    scripts: Script presenti in <code>/views/assets/js/</code>
+    files:
+      card: >-
+        aggiunge un elegante effetto visivo ai riquadri mostrati nella schermata
+        di benvenuto.
+      common: >-
+        viene usato in tutte le pagine e fa funzionare la maggior parte delle
+        funzionalità del sito, come il completamento automatico.
+      csel: >-
+        gestisce il menu Impostazioni, la funzione omnibox e altre funzionalità
+        aggiuntive.
+      loader: viene usato come risorsa per il mascheramento del DOM.
+      registerSw: >-
+        crea e gestisce i service worker che fanno funzionare Ultraviolet, e usa
+        anche il bare transport.
+  future:
+    title: Sviluppi futuri
+    body: >-
+      <todo>Questa</todo> è la nostra lista, non esaustiva, delle cose da fare
+      per InvisiProxy LTS.
+  beginners:
+    title: Spiegazione sommaria per principianti su proxy esterni e hosting
+    intro: >-
+      Per prima cosa dovrai ospitare i tuoi proxy in locale o su un server
+      esterno.
+    hosting: 'Elenco di alcune buone opzioni di hosting:'
+    current: Provider di hosting attuale
+    paid: A pagamento
+    freePaidDedicated: Gratuito, a pagamento, dedicato
+    freeAndPaid: Gratuito e a pagamento
+    preference: >-
+      Tra i provider di hosting elencati, Dedipath e Azure sono i preferiti.
+      Puoi anche ospitarlo tu stesso.
+    cloudflare: >-
+      Una volta scelto un buon VPS, usa Cloudflare per i record DNS sia del sito
+      sia dei sottodomini dei proxy.
+    dns: >-
+      Ecco un esempio di record DNS. Il self-hosting richiede preferibilmente
+      dei <code>record A</code>.
+    dnsAlt: Record DNS
+    root: >-
+      <code>@</code> e <code>www.example.com</code> vengono usati per
+      InvisiProxy LTS.
+    subdomain: >-
+      <code>a.example.com</code> viene usato per altre istanze come Libreddit o
+      Invidious, a seconda di ciò che serve al gestore del sito.
+    local: >-
+      Come detto in precedenza, InvisiProxy è ospitato in locale con Scramjet e
+      Ultraviolet già pronti all'uso. Non servono istanze esterne.
+  domain:
+    title: Passaggi per il dominio
+    porkbun: >-
+      Se preferisci acquistare domini premium (TLD), usa
+      <porkbun>Porkbun</porkbun>, che offre domini a prezzi ottimi. Pensa che un
+      dominio <code>.org</code> costa normalmente circa 5 dollari il primo anno.
+  cloudflare:
+    title: Passaggi per Cloudflare
+    account: >-
+      Usa Cloudflare (crea un account), aggiungi il tuo sito e poi aggiungi a
+      Cloudflare le varie destinazioni DNS. Assicurati di impostare i nameserver
+      di Cloudflare, che ti verranno forniti più avanti mentre aggiungi il sito.
+    records: >-
+      Assicurati che siano record CNAME (anche i record A funzionano) e cerca di
+      seguire questa struttura:
+    columns: Tipo | Nome | Destinazione
+    ip: INSERISCI QUI L'IP DEL VPS
+    ssl: >-
+      Assicurati che HTTPS sia forzato e imposta SSL su Flexible (se non usi
+      Let's Encrypt). Altrimenti puoi impostare SSL su Full.
+  workspace:
+    title: Configurazione dell'ambiente di lavoro
+    vsc: >-
+      Se hai un tuo dispositivo, usa preferibilmente <vsc>Visual Studio
+      Code</vsc>. È praticamente l'opzione migliore che ci sia, ma ovviamente è
+      un'opinione. Assicurati anche di avere <node>Node.JS</node> installato sul
+      tuo computer.
+    fork: >-
+      Non entrerò troppo nei dettagli di questa parte, ma prima di tutto fai un
+      fork di questo repository. Poi clonalo in locale tramite un terminale, a
+      seconda del sistema operativo che usi. Assicurati di spostarti nella
+      cartella in cui vuoi configurarlo.
+    gitignore: >-
+      Ora aggiungi semplicemente in VSC la cartella in cui hai clonato il repo.
+      Poi esegui <code>pnpm install</code>. Se lo pubblichi su GitHub, ti
+      consiglio di aggiungere nella cartella principale un file
+      <code>.gitignore</code> con le seguenti esclusioni:
+    deploy: >-
+      Ora il tuo ambiente di lavoro è pronto. Per fare il deploy dell'ambiente
+      appena creato, dovrai informarti in base al tuo provider di hosting.
+    gitpod: >-
+      Se ti serve un IDE online da usare sul computer della scuola e/o sul
+      Chromebook, usa Gitpod. In pratica è l'equivalente di Visual Studio Code,
+      ma funziona nel browser.
+    gitpodAccount: 'Crea un account:'
+    gitpodFork: >-
+      Fai un fork di questo repo e inserisci questo URL per configurare il tuo
+      ambiente di lavoro:
+    gitpodSteps: >-
+      Segui gli stessi passaggi descritti sopra: esegui <code>pnpm
+      install</code> nel tuo repository e aggiungi nella cartella principale un
+      file <code>.gitignore</code> che escluda <code>node_modules</code>.
+  faq:
+    title: FAQ dettagliate
+    summary: FAQ rapide
+    games: Dove trovo i giochi di questo repo? (errori 404, ecc.)
+    gamesBody: Leggi <games>qui</games>.
+    captcha: >-
+      Perché il sito che sto usando non funziona correttamente o mostra errori
+      CAPTCHA?
+    captchaBody: >-
+      Purtroppo il supporto ai CAPTCHA è instabile su tutti i proxy attuali. È
+      supportato principalmente da Scramjet. Di conseguenza, alcuni siti
+      potrebbero non funzionare con nessuno dei proxy.
+    badGateway: Ricevo errori 502. Cosa devo fare?
+    badGatewayBody: >-
+      In questo caso puoi cambiare sito per risolvere l'errore oppure aspettare
+      un po'. A volte svuotare la cache aiuta.
+    questions: >-
+      Se hai ancora domande, chiedi pure sul server Discord indicato qui.
+    domains: >-
+      Perché ora i domini ufficiali sono numerati? Il progetto è di nuovo
+      mantenuto?
+    domainsBody: >-
+      Sì, questo progetto è di nuovo attivo con supporto LTS! L'approccio ora
+      però è molto più semplice, per garantirne il funzionamento: domini
+      riforniti quando serve e un codice sorgente molto curato. Più che mai,
+      questo progetto è una dimostrazione per le anime coraggiose disposte a
+      innovare nel campo dei servizi di proxy web.
+  closing:
+    summary: Vecchio messaggio di chiusura (originale - 2022)
+    announcement: >-
+      Non è il più bello degli annunci, scusate. Dopo averci riflettuto a lungo,
+      e con molta esitazione, ho deciso di chiudere Holy Unblocker e lasciare
+      TN. È una cosa che mi tormenta da mesi, da qui la mancanza di
+      aggiornamenti e i lunghi vuoti dell'anno scorso. Semplicemente non volevo
+      buttare via un progetto che ho amato con passione e a cui ho dedicato
+      tempo, stringendo amicizie fantastiche e conoscendo sviluppatori
+      incredibili qui. Potrei parlare all'infinito di chi sono queste persone,
+      ma mi fermo qui. Loro sanno chi sono :D
+    reasons: >-
+      Il motivo principale di questo cambio di idea è che ho deciso di mettere
+      un punto adesso per 1) mancanza di motivazione 2) la community NON è
+      sempre il massimo e a volte non è la più gentile (dovevo dirlo) 3) il
+      futuro di HU/TN come progetto non sembra molto roseo.
+    secrets: >-
+      Alcune cose preferisco tenerle per me, perché dietro questa scelta ci sono
+      anche altri motivi, anche se a qualcuno queste informazioni potrebbero non
+      bastare. Gli amici più stretti qui sanno quanto questa decisione mi abbia
+      stressato negli ultimi mesi. In ogni caso, un'altra buona ragione è che
+      presto finirò gli studi.
+    future: >-
+      Potrei continuare o tornare su questo progetto in futuro, oppure tenerlo
+      solo su GitHub. Lo scrivo perché ancora adesso ho dei dubbi su questa
+      decisione. Ma per ora vi consiglio di dare un'occhiata ad altri siti proxy
+      come Incognito (Duce fa TANTISSIMI aggiornamenti ed è il
+      creatore/sviluppatore di Ultraviolet, quindi fategli sentire un po'
+      d'affetto) :yayy_hopi:
+    patreon: >-
+      Date un'occhiata anche al suo Patreon! Gli attuali sostenitori di HU non
+      riceveranno addebiti il mese prossimo e il Patreon di HU verrà archiviato,
+      quindi passate al Patreon di Duce, così potrà comprare altri domini per
+      Incognito.
+    signoff: Con affetto <3
+  more:
+    title: Altre informazioni
+    maintained: >-
+      Questo progetto è mantenuto dal team di InvisiProxy LTS ed è uno dei siti
+      proxy web ufficiali di punta di TitaniumNetwork.
+    website: Visita il sito ufficiale per maggiori dettagli e per i crediti.
+    sources: 'Sorgenti dei proxy web:'
+    sourcesBody: >-
+      Al momento questo progetto usa Scramjet e Ultraviolet come proxy web
+      conformi al protocollo Wisp. Bare-Mux viene usato per cambiare i sistemi
+      di trasporto da usare con Wisp. I sistemi di trasporto inclusi sono
+      EpoxyTransport e libcurl-transport.
+    wispProtocol: Protocollo Wisp
+    merp: Merp (modulo di offuscamento)
+    dnsBlocklists: Blocklist DNS di hagezi
+    dependencies: 'Altre dipendenze:'
+    mentions: 'Menzioni speciali:'
+    hostingProvider: Provider di hosting
+  meta:
+    title: Documentazione di InvisiProxy | Self-hosting, configurazione e Tor
+    description: >-
+      Ospita InvisiProxy in autonomia: installalo con pnpm, configuralo in
+      config.json, instrada il traffico tramite Tor o un proxy SOCKS5 e scopri a
+      cosa serve ogni dipendenza.
+    social: >-
+      Avvia la tua istanza di InvisiProxy. Copre installazione, config.json,
+      instradamento Tor e SOCKS5 e le librerie su cui si basa il progetto.
+
+apps:
+  intro: >-
+    Seleziona un sito qui sotto per aprirlo tramite il proxy. Evita di accedere
+    con i tuoi account principali, perché questo è un servizio proxy pubblico.
+    Ti consigliamo di creare account alternativi e di attivare l'autenticazione
+    a due fattori (2FA), perché alcuni siti allentano le restrizioni in presenza
+    di questi requisiti. Milioni di richieste passano da un numero ristretto di
+    IP, quindi alcuni siti potrebbero bloccare l'accesso.
+  patreon: >-
+    Valuta di abbonarti al nostro <patreon>Patreon</patreon> se vuoi far passare
+    il tuo traffico da un ISP residenziale affidabile e avere velocità maggiori.
+    Se hai problemi, puoi anche attivare l'instradamento Tor o cambiare la
+    regione del proxy. Per usare GeForce Now, disattiva le pubblicità dalle
+    impostazioni del proxy.
+  faq: Se hai problemi con il proxy, consulta la pagina delle <faq>FAQ</faq>.
+  loading: Caricamento delle applicazioni…
+  categories:
+    all: Tutte
+    featured: In evidenza
+    social: Social
+    chat: Chat
+    video: Video
+    music: Musica
+    games: Giochi
+    ai: IA
+    education: Istruzione
+    opensource: Open source
+
+partners:
+  title: Servizi partner
+  intro: >-
+    Esplora i progetti dei nostri partner. Funzionano tramite il proxy, così
+    puoi usarli qui senza blocchi.
+  features: >-
+    I nostri partner offrono funzionalità come giochi sbloccati, port per il web
+    ed emulazione. Tutti i partner sono open source e gratuiti. Valuta di unirti
+    alle loro community e di sostenerli, se puoi. Seguono tutti un modello
+    simile a InvisiProxy, quindi unisciti ai rispettivi server Discord per altri
+    link.
+
+credits:
+  title: Crediti
+  intro: >-
+    InvisiProxy LTS è un servizio di proxy web ufficiale in grado di aggirare i
+    filtri web, che siano basati su estensioni o sulla rete.<br/>Questo progetto
+    ti permette di accedere a contenuti altrimenti bloccati da governi, scuole o
+    luoghi di lavoro.
+  name: Nome
+  contributions: Contributi
+  contact: Note e contatti
+  iconAlt: icona
+  sections:
+    developers: Sviluppatori principali
+    contributors: Collaboratori
+    translators: Traduttori
+    shoutouts: Ringraziamenti speciali
+
+icons:
+  title: Informazioni sulle icone
+  subtitle: Come trovare l'URL dell'icona di un sito
+  copy: >-
+    Copia l'URL che ti fornisce il bookmarklet. Poi torna su InvisiProxy e
+    inseriscilo come URL dell'icona nelle Impostazioni. Buona navigazione!
+
+error:
+  pageTitle: Errore
+  title: Errore del sito (torna alla home page)
+  reload: Ricarica la pagina o premi Ctrl+R. Risolve molti problemi.
+  unavailable: >-
+    La connessione al proxy non è disponibile e il server ha aggiornato il
+    codice sorgente.
+  maintenance: >-
+    Succede a intervalli casuali per randomizzare il codice sorgente. Ci
+    scusiamo per gli eventuali disagi! Serve a mantenere attivi i mirror.
+  wait: In questo caso, aspetta un po' che il problema si risolva!
+  faq: >-
+    URL non valido? Consulta la <faq>pagina delle FAQ</faq> per ricevere aiuto!
+  home: Torna alla home page
+
+scramjet:
+  pageTitle: Proxy Scramjet
+  description: >-
+    Il nuovo e innovativo proxy di Mercury Workshop, che usa tecnologie come i
+    service worker e tecniche di riscrittura sofisticate, con supporto per i
+    CAPTCHA. Scramjet punta sulla velocità con YouTube, now.gg, Spotify,
+    CoolMathGames e vari siti .io!
+  searchPlaceholder: Digita qui un URL o inserisci una ricerca!
+  search: CERCA
+
+frame:
+  searchPlaceholder: Digita un URL o cerca...
+  loading: Caricamento del proxy web...
+  restarting: >-
+    Il server si sta riavviando, attendi. Serve a randomizzare il codice
+    sorgente...
+  title: Navigazione
+  tabs: Schede proxy
+  newTab: Nuova scheda
+  closeTab: Chiudi scheda
+  closeMenu: Chiudi
+  bookmarks: Preferiti
+  addBookmark: Aggiungi questa pagina ai preferiti
+  removeBookmark: Rimuovi dai preferiti
+  noBookmarks: >-
+    Ancora nessun preferito. Usa la stella nella barra degli indirizzi per
+    salvare la pagina che stai visitando.
+
+scramjetError:
+  title: Errore di rete di Scramjet
+  failed: 'Impossibile caricare:'
+  reload: Ricaricare la pagina potrebbe risolvere il problema.
+  refresh: Aggiorna pagina
+  copy: Copia
+  try: 'Cosa puoi provare:'
+  tips:
+    reload: 'Ricaricare la pagina: è un problema noto di Scramjet'
+    idb: >-
+      In caso di errore del database IDB, cancellare i dati del sito cliccando
+      sull'icona del lucchetto nella barra degli indirizzi, selezionando
+      "Impostazioni sito" o "Dati del sito" e poi "Cancella dati del sito"
+    cache: >-
+      Svuotare la cache del browser o del sito con Ctrl+Maiusc+R. Puoi anche
+      andare su Impostazioni > Privacy > Cancella dati del sito su Invisi
+    address: Verificare di aver inserito l'indirizzo corretto
+    maintenance: >-
+      In caso di manutenzione o aggiornamenti del sito, attendere che il
+      problema venga risolto.
+    censored: >-
+      Verificare che il server non sia censurato dalla tua rete (WebRTC, ecc.)
+    faq: >-
+      Consultare la pagina delle FAQ per problemi di compatibilità con siti
+      specifici.
+    github: >-
+      Cercare una soluzione all'errore su <github>GitHub di Scramjet.</github>
+    engine: >-
+      Provare un trasporto proxy o una regione diversi dal pannello delle
+      impostazioni.
+  network: Aggiorna il servizio di rete
+  love: Fatto con amore
